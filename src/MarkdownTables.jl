@@ -1,5 +1,5 @@
 """
-Lightweight package to print a table that implements the ([Tables.jl
+Lightweight package to print a table that implements the [Tables.jl
 interface](https://tables.juliadata.org) in Markdown.
 
 The single exported function is [`markdown_table`](@ref). Primarily developed for use in
