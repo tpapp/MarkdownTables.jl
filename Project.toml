@@ -1,7 +1,7 @@
 name = "MarkdownTables"
 uuid = "1862ce21-31c7-451e-824c-f20fa3f90fa2"
 authors = ["Tamás K. Papp <tkpapp@gmail.com>"]
-version = "1.0"
+version = "1.1"
 
 [deps]
 ArgCheck = "dce04be8-c92d-5529-be00-80e4d2c0e197"
