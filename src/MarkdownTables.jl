@@ -58,7 +58,7 @@ some_table |> markdown_table([output]; kwargs...)
 
 - `header`: whether to print the column names
 
-- `header_post = header_pre = \"*\"`: appended to column names, should make valid
+- `header_post = header_pre = \""`: appended to column names, should make valid
   Markdown syntax
 
 - `right_padding = left_padding = 1`: left and right padding for cells, use `0` for compact
@@ -69,7 +69,7 @@ some_table |> markdown_table([output]; kwargs...)
 """
 function markdown_table(table, output::_OUTPUTS = MIME("text/markdown");
                         header::Bool = true,
-                        header_pre::AbstractString = "*",
+                        header_pre::AbstractString = "",
                         header_post::AbstractString = header_pre,
                         left_padding::Integer = 1,
                         right_padding::Integer = left_padding,
