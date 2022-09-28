@@ -10,7 +10,7 @@ Primarily developed for use in [Literate.jl](https://fredrikekre.github.io/Liter
 
 ```julia
 using MarkdownTables #hide
-some_table |> markdown_table
+some_table |> markdown_table()
 ```
 
 # Alternatives
