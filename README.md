@@ -2,7 +2,7 @@
 
 ![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)
 [![build](https://github.com/tpapp/MarkdownTables.jl/workflows/CI/badge.svg)](https://github.com/tpapp/MarkdownTables.jl/actions?query=workflow%3ACI)
-[![codecov.io](http://codecov.io/github/tpapp/MarkdownTables.jl/coverage.svg?branch=master)](http://codecov.io/github/tpapp/MarkdownTables.jl?branch=master)
+[![codecov](https://codecov.io/github/tpapp/MarkdownTables.jl/branch/master/graph/badge.svg?token=P4us6KCrKg)](https://codecov.io/github/tpapp/MarkdownTables.jl)
 
 Lightweight package to print a table that implements the [Tables.jl interface](https://tables.juliadata.org) in Markdown.
 
