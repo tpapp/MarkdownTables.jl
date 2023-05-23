@@ -13,6 +13,11 @@ using MarkdownTables #hide
 some_table |> markdown_table()
 ```
 
+You can directly save the generated ready-to-paste table to your clipboard via:
+```julia
+some_table |> markdown_table(String) |> clipboard
+```
+
 # Alternatives
 
 [PrettyTables.jl](https://ronisbr.github.io/PrettyTables.jl/) is much more general, but is also a heavier dependency.
